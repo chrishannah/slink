@@ -29,3 +29,6 @@ Example:
     slink -s "http://google.co.uk"
 
 ```
+
+## Demo
+![](https://github.com/chrishannah/slink/blob/master/2017-03-23%2020_38_29.gif?raw=true)
