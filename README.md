@@ -7,8 +7,8 @@ URL shortener for the command line, using Goo.gl.
 1. Download the latest version of slink - https://github.com/chrishannah/slink/releases.
 2. Open up your terminal app of choice.
 3. Navigate to the folder containing the "slink" file.
-4. Add the executable permission to the file: chmod +x slink.
-5. Move the file to the usr/local/bin directory so it can be launched as a command: mv slink /usr/local/bin.
+4. Add the executable permission to the file: `chmod +x slink.`
+5. Move the file to the usr/local/bin directory so it can be launched as a command: `mv slink /usr/local/bin.`
 
 ## Usage
 
