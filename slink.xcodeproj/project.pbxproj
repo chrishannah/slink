@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9DA884271E8438A600D3A15B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA884261E8438A600D3A15B /* main.swift */; };
+		9DA8842E1E8438C000D3A15B /* URLShortener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8842D1E8438C000D3A15B /* URLShortener.swift */; };
+		9DA884301E84391000D3A15B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8842F1E84391000D3A15B /* Extensions.swift */; };
+		9DA884321E84663B00D3A15B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9DA884311E84663B00D3A15B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		9DA884231E8438A600D3A15B /* slink */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = slink; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA884261E8438A600D3A15B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9DA8842D1E8438C000D3A15B /* URLShortener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLShortener.swift; sourceTree = "<group>"; };
+		9DA8842F1E84391000D3A15B /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9DA884311E84663B00D3A15B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,7 @@
 		9DA8841A1E8438A600D3A15B = {
 			isa = PBXGroup;
 			children = (
+				9DA884311E84663B00D3A15B /* README.md */,
 				9DA884251E8438A600D3A15B /* slink */,
 				9DA884241E8438A600D3A15B /* Products */,
 			);
@@ -58,6 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				9DA884261E8438A600D3A15B /* main.swift */,
+				9DA8842D1E8438C000D3A15B /* URLShortener.swift */,
+				9DA8842F1E84391000D3A15B /* Extensions.swift */,
 			);
 			path = slink;
 			sourceTree = "<group>";
@@ -121,6 +130,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA8842E1E8438C000D3A15B /* URLShortener.swift in Sources */,
+				9DA884301E84391000D3A15B /* Extensions.swift in Sources */,
+				9DA884321E84663B00D3A15B /* README.md in Sources */,
 				9DA884271E8438A600D3A15B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
